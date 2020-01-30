@@ -100,6 +100,7 @@ function sortArray(arr){
 }
 
 console.log(sortArray(nums));
+console.log(sortArray(nums));
 
 
 
