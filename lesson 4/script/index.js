@@ -201,25 +201,6 @@
 
 //homevork
 
-getMax (5, -10, 200, 3);
-ete mek tiv grvi, alert,
-gtnel maximal arjeq@,
-ete baci tvic ayl arjeq lini , alert!
-NaN isNaN(Nan).
-Infinity === Infinity
-true
-isFinite(10);
-true
-getMax(5)//
-
-
-sarqel konstructor erb var obj = new F();
-F(); ete kanchenq arandzin aranc new-i kanchi alert!
-
-var castomMath-i vra vori vra klinen  Abs, floor, max, min, round objetner@
-
-sortavorman xndirn el grel
-
 
 
 
