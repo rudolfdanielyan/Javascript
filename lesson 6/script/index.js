@@ -112,16 +112,16 @@
 
 //
 
-function mySlice(start = 0, end, value) {
-    var result = [];
-    for(var i = start; i < (end || arr.length); i++){
-        result.push(arr[i]);
-    }
+// function mySlice(start, end, value) {
+//     var result = [];
+//     for(var i = start; i < (end || arr.length); i++){
+//         result.push(arr[i]);
+//     }
 
-    return result;
-}
+//     return result;
+// }
 
-mySlice([1, 10, 30, 5, 66],5);
+// mySlice([1, 10, 30, 5, 66], 1, 2);
 
 
 // 
@@ -135,3 +135,29 @@ console.log(date.setFullYear(1993, 1, 3));
 //homework
 //sarqel slice, Splice ev random tvov F();
 
+
+//
+Array.prototype.mySplice = function(start = 0, end) {
+    var result = [];
+    for(var i = start; i < (end || this.length); i++) {
+        result.pop(arr[i]);
+    }
+
+    return result;
+}
+
+
+var arr = [5, 6, 200, 80, 90];
+console.log(arr.mySplice([1, 4]));
+
+
+//
+function myRandom(min, max) {
+    var result = [];
+   for (var i = 0; i < arr.length; i++) {
+    result = arr[i];
+} 
+return result * (max - max) + min;       
+}
+
+console.log(myRandom(1, 5));
